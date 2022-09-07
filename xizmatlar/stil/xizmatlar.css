@@ -288,7 +288,7 @@ color: #000000;
     line-height: 24px;
     color: #000000;
     display: block;
-    position: relative;
+    /* position: relative; */
     bottom: 5px;
 }
 
@@ -339,6 +339,13 @@ color: #000000;
 /*********************** main and */
 
 /* footer start */
+
+/* footer start */
+
+.sayt-item:hover {
+    color: #00bafc;
+    border-bottom: #00bafc solid 2px;
+}
 
 .footer-box1 {
     width: 1300px;
@@ -394,18 +401,26 @@ label {
     border-radius: 5px;
     position: relative;
 }
-
-#Xizmat_turi {
-    position: absolute;
-    width: 50px;
+.select-option{
+    width: 300px;
     height: 56px;
-    right: 0px;
-    top: 0px;
 
-    background: #c4c4c4;
-    border-radius: 0px 5px 5px 0px;
 }
 
+#Xizmat_turi {
+    /* position: absolute; */
+    /* width: 56px; */
+    height: 56px;
+    width: 300px;
+    right: 0px;
+    top: 0px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
+}
+option{    background: #f3f3f3;
+    
+}
 .button {
     display: flex;
     flex-direction: row;
@@ -435,8 +450,8 @@ input {
     display: flex;
 }
 
-.footer-box2 a:hover{
-color: #00BAFC;
+.footer-box2 a:hover {
+    color: #00bafc;
 }
 
 .footer-continer {
