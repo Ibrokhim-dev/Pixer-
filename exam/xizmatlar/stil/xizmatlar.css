@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-weight: 400px;
+    color: black;
+}
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+        url("../fonts/open-sans-v34-latin-regular.woff2") format("woff2"),
+        url("../fonts/open-sans-v34-latin-regular.woff") format("woff");
+}
+
+/* open-sans-700 - latin */
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+        url("../fonts/open-sans-v34-latin-700.woff") format("woff");
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: auto auto;
+    width: 1300px;
+}
+
+.continer {
+    width: 1100px;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* header start */
+
+.header {
+    width: 1300px;
+    /* margin-left: 50px; */
+    height: 56px;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+}
+
+
+
+.main-navigation {
+    display: flex;
+
+
+
+}
+
+.logo {
+    margin-right: 299px;
+}
+
+.main-navigation__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 56px;
+}
+.main-navigation__item{
+    background-color:#ffffff;
+}
+
+.main-navigation__item:active{
+    background-color:rgba(25, 25, 25, 0.7);
+
+}
+
+
+
+.main-navigation__item a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+    display: block;
+
+}
+
+.main-navigation__item a:hover {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: black;
+    display: block;
+    border-bottom: #000000 solid 2px;
+
+}
+
+.tel {
+    display: block;
+    width: 159px;
+    height: 40px;
+    background: #00BAFC;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tel:hover.tel a {
+    display: block;
+    width: 159px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    border: #00BAFC solid 1px;
+    color: #00BAFC;
+}
+
+.tel a {
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+/* dropdown start*/
+.dropdown {
+    position: relative;
+    /* background-color:black; */
+    padding:10px;
+}
+
+.dropdown_menu {
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    top: 49px;
+    display: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dropdown_menu li {
+    padding: 14px;
+    width: 100%;
+}
+
+.dropdown_menu a {
+    color: black;
+}
+
+.dropdown_menu li:hover {
+    background-color:#00BAFC;
+}
+
+
+.dropdown:hover .dropdown_menu {
+    display: block;
+}
+
+
+/************************* main start */
+
+.continer-main {
+    width: 804px;
+    margin: 80px 248px;
+    height: 100%;
+}
+
+main {
+    width: 1300px;
+    height: 2574px;
+    background: #f4f4f4;
+}
+
+.main-box1 {
+    width: 1300px;
+    height: 284px;
+    background: #ffffff;
+    text-align: center;
+}
+
+/* box larga ishlov */
+.main-box2,
+.main-box4 {
+    height: 378px;
+}
+
+.main-box3 {
+    height: 410px;
+}
+
+.main-box5 {
+    height: 378px;
+}
+
+.main-box2,
+.main-box3,
+.main-box4,
+.main-box5 {
+    background: #ffffff;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    width: 804px;
+    margin-bottom: 40px;
+}
+
+.main-box6 {
+    background: #ffffff;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    width: 804px;
+    height: 346px;
+} 
+
+.box-mini {
+    text-align: left;
+}
+
+.box-mini h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.box-mini p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 15px;
+}
+
+.main_box-item a {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    display: block;
+    position: relative;
+    bottom: 5px;
+}
+
+.main_box-items {
+    margin-left: 20px;
+}
+
+.main_box-item {
+    list-style: disc;
+    color: #00bafc;
+    font-size: 30px;
+}
+
+.box-btn {
+    width: 167px;
+    height: 40px;
+    background: #00bafc;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.box-btn a {
+    width: 135px;
+    height: 24px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 0px 0px 17px;
+
+    text-align: center;
+}
+
+.box-btn2 {
+    display: inline-block;
+
+    color: #00bafc;
+    border-bottom: solid #00bafc 2px;
+}
+
+/*  main box3 start  */
+
+/*********************** main and */
+
+/* footer start */
+
+.footer-box1 {
+    width: 1300px;
+    height: 543px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 100px;
+    gap: 16px;
+    background: #00bafc;
+}
+
+.footer-box1 h2 {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #ffffff;
+}
+
+.footer-box1 p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    width: 348px;
+    height: 304px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    width: 300px;
+    height: 56px;
+    background: #f3f3f3;
+    border-radius: 5px;
+    position: relative;
+}
+
+#Xizmat_turi {
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    right: 0px;
+    top: 0px;
+
+    background: #c4c4c4;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    width: 167px;
+    height: 40px;
+
+    background: #00bafc;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    background: #f3f3f3;
+    height: 24px;
+}
+
+/* ***********************footer-box2  start */
+.footer-box2 {
+    width: 1300px;
+    height: 338px;
+    background: #000000;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.footer-continer {
+    margin: 56px 408px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    display: block;
+}
+
+.sayt-items {
+    margin-left: 100px;
+    margin-right: 87px;
+}
+
+.sayt-item {
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer_box2-text p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+}
+
+/* kanalar */
+.tarmoq_box div {
+    margin-bottom: 2px;
+}
+
+.tarmoq-item {
+    display: flex;
+    align-items: center;
+}
+
+.tarmoq-item img {
+    display: block;
+}
+
+.tarmoq-item a {
+    display: block;
+    color: white;
+    margin-left: 5px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
